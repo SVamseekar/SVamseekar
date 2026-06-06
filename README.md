@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003399,100:0089D6&height=120&section=header&text=Marti%20Soura%20Vamseekar&fontColor=ffffff&fontSize=32&fontAlignY=65&desc=Software%20Development%20Engineer%20%C2%B7%20AI%20%26%20Data&descAlignY=85&descColor=cce0ff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003399,100:0089D6&height=110&section=header&text=Marti+Soura+Vamseekar&fontColor=ffffff&fontSize=30&fontAlignY=70" width="100%"/>
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=0089D6&center=true&vCenter=true&width=600&lines=RAG+%2F+LLM+pipelines+in+production;Event-driven+microservices+%40+scale;Cloud+data+platforms+on+GCP+%26+Azure;EU+Blue+Card+Eligible+%F0%9F%87%AA%F0%9F%87%BA+%E2%80%94+open+to+relocation" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=0089D6&center=true&vCenter=true&width=620&lines=Software+Development+Engineer;RAG+%2F+LLM+pipelines+in+production;Event-driven+microservices+%40+scale;EU+Blue+Card+Eligible+%F0%9F%87%AA%F0%9F%87%BA+%E2%80%94+open+to+relocation" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -105,7 +105,7 @@ Built a unified algorithmic trading platform for live NSE equity & derivatives m
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=SVamseekar&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D" height="150"/>
+  <img src="https://streak-stats.demolab.com?user=SVamseekar&theme=dark&hide_border=true" height="150"/>
 </p>
 
 <p align="center">
@@ -118,15 +118,15 @@ Built a unified algorithmic trading platform for live NSE equity & derivatives m
 
 | | |
 |---|---|
-| 🎓 M.Sc. Data Science — University of Greenwich, London · **Merit** | 2021 – 2022 |
-| 🎓 B.Tech. Electronics & Communication — GITAM, Visakhapatnam · **8.3 CGPA** | 2016 – 2020 |
-| 📜 Microsoft Azure Data Engineer Associate **DP-203** · ID: 2CEA6999835BAD6E | March 2025 |
+| M.Sc. Data Science — University of Greenwich, London · **Merit** | 2021 – 2022 |
+| B.Tech. Electronics & Communication — GITAM, Visakhapatnam · **8.3 CGPA** | 2016 – 2020 |
+| Microsoft Azure Data Engineer Associate **DP-203** · ID: 2CEA6999835BAD6E | March 2025 |
 
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0089D6,100:003399&height=80&section=footer" width="100%"/>
 
 <p align="center">
-  <b>🇪🇺 EU Blue Card Eligible · Germany · Netherlands · Ireland · Austria · wider EU</b><br/>
+  <b>EU Blue Card Eligible · Germany · Netherlands · Ireland · Austria · wider EU</b><br/>
   <a href="https://linkedin.com/in/souramarti">linkedin.com/in/souramarti</a> · <a href="mailto:martisoura@gmail.com">martisoura@gmail.com</a>
 </p>
