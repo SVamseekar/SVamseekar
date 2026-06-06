@@ -75,9 +75,6 @@ Currently open to SDE roles in Germany, Netherlands, and Ireland. EU Blue Card e
 
 🔨 **What I've built**
 
-**[Bharat Alpha](https://github.com/SVamseekar/bharat-alpha)** · *Innosolv Private Limited*
-AI-powered Indian equity research terminal covering 52 Nifty 50 companies (FY2020–FY2025). Built a hybrid RAG pipeline — FAISS vector search + BM25 lexical retrieval + cross-encoder reranking (30 candidates → top 5) — over 305 annual reports and 143K chunks embedded with `gemini-embedding-001`. Queries hit Gemini 2.5 Flash via SSE streaming with numbered citation markers traceable to source filings. Users get investment verdicts (Buy/Hold/Avoid), peer comparisons, and an AI-critiqued investment journal. Live NSE prices via yfinance. Full-stack: React 18 + TypeScript + shadcn/ui, Supabase auth, Postgres conversation history.
-
 **[Masova](https://github.com/SVamseekar/masova-platform)**
 Full-stack restaurant intelligence platform — 6 Spring Boot 3 / Java 21 microservices on GCP Cloud Run behind a Spring Cloud Gateway (JWT HS512, per-route rate limits). 399 API endpoints across order management, payments, logistics, and BI. Event-driven order lifecycle via RabbitMQ with WebSocket delivery to all clients. Dual-write persistence: PostgreSQL (Flyway V1–V8) + MongoDB. EU VAT engine covering 12 countries with fiscal signers (German TSE, French NF525, Italian SDI, UK MTD). 8 Google ADK 1.25 / Gemini agents handling demand forecasting, churn prevention, inventory reorder, and review drafting. 3 production frontends: React 19 web, React Native 0.83 staff app, React Native 0.81 customer app. GDPR Article 17 compliant with data retention policies (2-year customer, 7-year PCI).
 
@@ -92,9 +89,9 @@ Local-first, privacy-first bill tracking app for Indian households. OCR pipeline
 
 ---
 
-💼 **Currently**
+💼 **Currently** — SDE at [Innosolv Private Limited](https://innosolv.com) (London, remote)
 
-SDE at [Innosolv Private Limited](https://innosolv.com) (London, remote) — algorithmic trading platform for live NSE equity & derivatives, options analytics engine, HFT module · Java 17, Spring Boot 3.2, Zerodha Kite Connect
+Building two products: an algorithmic trading platform for live NSE equity & derivatives markets (Java 17, Spring Boot 3.2, WebFlux, Zerodha Kite Connect — options analytics engine, Iron Condor strategies, basket orders, HFT module with Bucket4j rate limiting) and **[Bharat Alpha](https://github.com/SVamseekar/bharat-alpha)**, an AI-powered Indian equity research terminal with hybrid RAG over 305 annual reports (143K chunks, FAISS + BM25 + cross-encoder, Gemini 2.5 Flash streaming).
 
 ---
 
