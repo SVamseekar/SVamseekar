@@ -1,9 +1,9 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003399,100:0089D6&height=110&section=header&text=Marti+Soura+Vamseekar&fontColor=ffffff&fontSize=30&fontAlignY=70" width="100%"/>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003399,100:0089D6&height=160&section=header&text=Marti%20Soura%20Vamseekar&fontColor=ffffff&fontSize=36&fontAlignY=55&animation=fadeIn" />
+</p>
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=0089D6&center=true&vCenter=true&width=620&lines=Software+Development+Engineer;RAG+%2F+LLM+pipelines+in+production;Event-driven+microservices+%40+scale;EU+Blue+Card+Eligible+%F0%9F%87%AA%F0%9F%87%BA+%E2%80%94+open+to+relocation" alt="Typing SVG"/>
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=0089D6&center=true&vCenter=true&width=620&lines=Software+Development+Engineer;RAG+%2F+LLM+pipelines+in+production;Event-driven+microservices+%40+scale;EU+Blue+Card+Eligible+%F0%9F%87%AA%F0%9F%87%BA+%E2%80%94+open+to+relocation" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -124,7 +124,9 @@ Built a unified algorithmic trading platform for live NSE equity & derivatives m
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0089D6,100:003399&height=80&section=footer" width="100%"/>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0089D6,100:003399&height=80&section=footer" />
+</p>
 
 <p align="center">
   <b>EU Blue Card Eligible · Germany · Netherlands · Ireland · Austria · wider EU</b><br/>
