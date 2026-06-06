@@ -75,15 +75,20 @@ Currently open to SDE roles in Germany, Netherlands, and Ireland. EU Blue Card e
 
 🔨 **What I've built**
 
-**[WorkforceGuard AI](https://github.com/SVamseekar/workforceguardai)** — EU pay transparency analytics over 16 Eurostat datasets · 28 dbt models · EU27 · RF 94.7% accuracy · evidence packs for Directive 2023/970 audit
+**[Bharat Alpha](https://github.com/SVamseekar/bharat-alpha)** · *Innosolv Private Limited*
+AI-powered Indian equity research terminal covering 52 Nifty 50 companies (FY2020–FY2025). Built a hybrid RAG pipeline — FAISS vector search + BM25 lexical retrieval + cross-encoder reranking (30 candidates → top 5) — over 305 annual reports and 143K chunks embedded with `gemini-embedding-001`. Queries hit Gemini 2.5 Flash via SSE streaming with numbered citation markers traceable to source filings. Users get investment verdicts (Buy/Hold/Avoid), peer comparisons, and an AI-critiqued investment journal. Live NSE prices via yfinance. Full-stack: React 18 + TypeScript + shadcn/ui, Supabase auth, Postgres conversation history.
 
-**[Masova](https://github.com/SVamseekar/masova-platform)** — Full-stack restaurant OS · 6 Spring Boot 3 microservices · 399 endpoints · 12-country EU VAT engine · 8 Gemini agents · 3 frontends · GDPR Article 17
+**[Masova](https://github.com/SVamseekar/masova-platform)**
+Full-stack restaurant intelligence platform — 6 Spring Boot 3 / Java 21 microservices on GCP Cloud Run behind a Spring Cloud Gateway (JWT HS512, per-route rate limits). 399 API endpoints across order management, payments, logistics, and BI. Event-driven order lifecycle via RabbitMQ with WebSocket delivery to all clients. Dual-write persistence: PostgreSQL (Flyway V1–V8) + MongoDB. EU VAT engine covering 12 countries with fiscal signers (German TSE, French NF525, Italian SDI, UK MTD). 8 Google ADK 1.25 / Gemini agents handling demand forecasting, churn prevention, inventory reorder, and review drafting. 3 production frontends: React 19 web, React Native 0.83 staff app, React Native 0.81 customer app. GDPR Article 17 compliant with data retention policies (2-year customer, 7-year PCI).
 
-**[Aequitas](https://github.com/SVamseekar/aequitas)** — UK bus transport equity platform · 274K stops · 56.5M people · 33,755 LSOAs · Gini 0.5741 · FAISS RAG + Gemini 2.5 Flash · M.Sc. dissertation → production
+**[WorkforceGuard AI](https://github.com/SVamseekar/workforceguardai)**
+EU workforce intelligence and pay transparency platform underpinning the published SSRN paper. 28-model dbt pipeline over a DuckDB warehouse ingesting 16 Eurostat datasets (LFS, JVS, SES) across EU27. Computes four composite indices — Hiring Pressure Index, Labour Resilience, Equity Risk Score, Transition Readiness — all formula-versioned and audit-traceable. 7 ML models on 32,769 samples; Random Forest achieved 94.7% accuracy and AUC 0.855 on a 912K-record test set. FastAPI backend + React 19 dashboard with evidence packs and governance log for EU Directive 2023/970 compliance audit.
 
-**[Bharat Alpha](https://github.com/SVamseekar/bharat-alpha)** — Indian equity research terminal · 143K chunks · 305 annual reports · FAISS + BM25 + cross-encoder hybrid RAG · streaming citations
+**[Aequitas](https://github.com/SVamseekar/aequitas)**
+UK bus transport policy intelligence platform built as an M.Sc. dissertation (University of Greenwich) and extended into production. A 7-stage validated pipeline processes 274,719 active NaPTAN bus stops, 13,099 BODS GTFS routes, and 1.75M trips across 33,755 English LSOAs (56.5M population) — 103 quality checks, 0 failures. Key findings: Gini coefficient 0.5741 (vs UK income Gini 0.36), Palma ratio 5.702, 4,245 zero-stop LSOAs, 5,189 evening-isolated communities, 612 triple-deprived LSOAs. ML stack: Random Forest (R² 0.472, top SHAP feature: `nocar_pct`), HDBSCAN clustering, Isolation Forest, 2SFCA accessibility scoring. Production platform: FastAPI + DuckDB warehouse + FAISS RAG chatbot (all-MiniLM-L6-v2 + Gemini 2.5 Flash) + React/TypeScript frontend. 51 analytical sections across 8 policy dimensions, 30 Jinja2 narrative templates.
 
-**[BillSathi](https://github.com/SVamseekar/billsathi)** — AI bill tracker · PaddleOCR + EasyOCR · 3-tier ML categoriser · 48 endpoints · Flutter · Cloudflare Zero Trust
+**[BillSathi](https://github.com/SVamseekar/billsathi)**
+Local-first, privacy-first bill tracking app for Indian households. OCR pipeline: PaddleOCR 2.9.1 primary + EasyOCR fallback (confidence gate 0.60) + 7 vendor-specific parsers (Amazon, Swiggy, Zomato, Blinkit, Zepto, Rapido, generic). Hybrid categorisation engine across 19 spending categories: rule-based → SGDClassifier (HashingVectorizer, partial_fit) → ChromaDB semantic search → Gemini 2.0 Flash Lite fallback, activated by user correction thresholds. 48 API endpoints with a circuit breaker (3 consecutive 429s → 5-min cooldown). Flutter frontend (Riverpod, GoRouter, fl_chart) with spending analytics, price inflation tracking, and Gmail IMAP bill parsing. Deployed on Oracle Cloud Free Tier ARM64 via Cloudflare Zero Trust Tunnel.
 
 ---
 
