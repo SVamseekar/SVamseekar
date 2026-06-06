@@ -75,6 +75,19 @@ Built a unified algorithmic trading platform for live NSE equity & derivatives m
 
 ---
 
+## Publications
+
+**[Why Tight Labour Markets Do Not Close Gender Pay Gaps: Evidence from a 20-Country Eurostat Panel](https://ssrn.com/abstract=6826361)**  
+*Marti Soura Vamseekar* · SSRN Preprint · May 25, 2026 · ORCID: 0009-0005-4884-1292
+
+Quantitative panel study across 20 EU member states (2019–2024) using Eurostat LFS, JVS, and SES microdata across 11 NACE sectors. Finds that labour market tightness and gender pay equity risk are **positively correlated (r ≈ +0.41; p ≈ 0.07)** — directly contradicting the standard competitive equalisation hypothesis that tight labour markets erode pay discrimination. The five tightest labour markets (Netherlands HPI=100, Germany HPI=99, Czech Republic HPI=95, Hungary HPI=88, Estonia HPI=67) all record gender pay gaps above the EU27 average of 11.1%. Finance (EU27 gap 24.28%) and ICT (19.68%) are the highest-risk sectors across virtually every country.
+
+Introduces a novel **Combined Risk Quadrant** (Hiring Pressure Index × Equity Risk Score) — the first integrated tightness-equity typology in the academic literature — identifying Germany, Czech Republic, Hungary, and Latvia as Priority intervention cases under EU Directive 2023/970. Presents WorkforceGuard, an open-source Eurostat-grounded analytics system implementing these indices with provenance metadata, evidence-bounded LLM analysis, and a SHA-256 hash-chained governance log.
+
+`JEL: J31 · J16 · J21 · J71 · J58 · C43 · K31`
+
+---
+
 ## Projects
 
 ### [WorkforceGuard AI](https://github.com/SVamseekar/workforceguardai) — EU Pay Transparency Platform
