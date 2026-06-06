@@ -120,11 +120,15 @@ Built a unified algorithmic trading platform for live NSE equity & derivatives m
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=SVamseekar&theme=dark&hide_border=true" height="150"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SVamseekar&theme=tokyonight" width="100%"/>
 </p>
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SVamseekar&theme=tokyo-night&hide_border=true&area=true&custom_title=Marti%20Soura%20Vamseekar" width="100%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SVamseekar&theme=tokyonight" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SVamseekar&theme=tokyonight" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SVamseekar&theme=tokyonight" height="180"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=SVamseekar&theme=dark&hide_border=true" height="150"/>
 </p>
 
 ---
