@@ -1,15 +1,16 @@
-<h1 align="center">Marti Soura Vamseekar</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003399,100:0089D6&height=120&section=header&text=Marti%20Soura%20Vamseekar&fontColor=ffffff&fontSize=32&fontAlignY=65&desc=Software%20Development%20Engineer%20%C2%B7%20AI%20%26%20Data&descAlignY=85&descColor=cce0ff" width="100%"/>
 
 <p align="center">
-  <b>Software Development Engineer · M.Sc. Data Science (University of Greenwich, Merit) · Azure DP-203</b><br/>
-  AI/ML pipelines &nbsp;·&nbsp; Cloud-native microservices &nbsp;·&nbsp; Data platforms<br/>
-  📍 Hyderabad, India &nbsp;·&nbsp; 🇪🇺 <b>EU Blue Card Eligible</b> — open to relocation across Germany, Netherlands, Ireland, Austria
+  <a href="https://readme-typing-svg.demolab.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=0089D6&center=true&vCenter=true&width=600&lines=RAG+%2F+LLM+pipelines+in+production;Event-driven+microservices+%40+scale;Cloud+data+platforms+on+GCP+%26+Azure;EU+Blue+Card+Eligible+%F0%9F%87%AA%F0%9F%87%BA+%E2%80%94+open+to+relocation" alt="Typing SVG"/>
+  </a>
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/souramarti"><img src="https://img.shields.io/badge/LinkedIn-souramarti-0077B5?style=flat-square&logo=linkedin"/></a>
   <a href="mailto:martisoura@gmail.com"><img src="https://img.shields.io/badge/Email-martisoura%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/Azure-DP--203-0089D6?style=flat-square&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MSc-Data%20Science%20%7C%20Greenwich%20%7C%20Merit-4B0082?style=flat-square"/>
   <img src="https://img.shields.io/badge/EU%20Blue%20Card-Eligible-003399?style=flat-square&logo=europeanunion&logoColor=white"/>
 </p>
 
@@ -17,66 +18,99 @@
 
 ## About
 
-SDE with production experience across RAG/LLM pipelines, event-driven microservices, and cloud data platforms. I work across Java/Spring Boot, Python, dbt, DuckDB, Google ADK/Gemini, Azure, and GCP.
+SDE with production experience shipping RAG/LLM pipelines, event-driven microservices, and cloud data platforms. I build at real scale: 143K-chunk hybrid RAG over 305 annual reports, a 399-endpoint 6-service restaurant platform with a 12-country EU VAT engine, a workforce analytics system confirming r ≈ +0.41 between labour tightness and gender pay gaps across 20 EU states, and a UK transport equity platform covering 56.5M people across 33,755 LSOAs.
+
+---
+
+## Experience
+
+**Software Development Engineer** — [Innosolv Private Limited](https://innosolv.com) · London, UK (Remote) · *Oct 2025 – May 2026*
+
+Built a unified algorithmic trading platform for live NSE equity & derivatives markets — Java 17, Spring Boot 3.2, MongoDB, WebFlux, Zerodha Kite Connect. Delivered an options analytics engine (Iron Condor, basket orders, OI tracking) and an async order pipeline with Bucket4j rate limiting for high-frequency execution.
 
 ---
 
 ## Projects
 
 ### [WorkforceGuard AI](https://github.com/SVamseekar/workforceguardai) — EU Pay Transparency Platform
-> dbt · DuckDB · FastAPI · React 19 · scikit-learn · Eurostat API · EU Compliance
+> `dbt` `DuckDB` `FastAPI` `React 19` `scikit-learn` `Eurostat API`
 
-- 28-model dbt pipeline over 16 Eurostat datasets (LFS, JVS, SES, NACE) · EU27 coverage
-- Confirmed **r ≈ +0.41** correlation between labour market tightness and gender pay gaps across 20 EU states
-- 7 ML models on 32,769 samples · Random Forest **94.7% accuracy, AUC 0.855** on 912K-record test
-- 4 composite workforce indices (Hiring Pressure, Labour Resilience, Equity Risk, Transition Readiness) · evidence packs for EU Directive 2023/970 audit
-
----
+- 28-model dbt pipeline · 16 Eurostat datasets · EU27 (27 member states)
+- Confirmed **r ≈ +0.41** labour tightness ↔ gender pay gap · 20 EU states
+- Random Forest: **94.7% accuracy · AUC 0.855** on 912K-record test set
+- Evidence packs + governance log for EU Directive 2023/970 audit
 
 ### [Masova](https://github.com/SVamseekar/masova-platform) — Restaurant Intelligence Platform
-> Spring Boot 3 · Java 21 · GCP Cloud Run · RabbitMQ · MongoDB · PostgreSQL · Redis · Google ADK · React Native
+> `Spring Boot 3` `Java 21` `GCP Cloud Run` `RabbitMQ` `MongoDB` `Redis` `Google ADK` `React Native`
 
-- 6 microservices · **399 API endpoints** · Spring Cloud Gateway (reactive, JWT HS512)
-- 12-country EU VAT engine with fiscal signers (German TSE, French NF525, Italian SDI, UK MTD)
-- RabbitMQ event-driven order pipeline · WebSocket state delivery · dual-write MongoDB + PostgreSQL
-- 8 Google ADK 1.25 / Gemini 2.0 Flash agents · 9 callable tools · Redis session management
-- 3 frontends: React 19 web · React Native 0.83 staff app · React Native 0.81 customer app · GDPR-compliant (Article 17 DPR, 7-yr PCI retention)
-
----
+- 6 microservices · **399 endpoints** · Spring Cloud Gateway · JWT HS512
+- **12-country EU VAT engine** — German TSE, French NF525, Italian SDI, UK MTD
+- RabbitMQ event pipeline · WebSocket delivery · dual-write MongoDB + PostgreSQL
+- 8 Google ADK / Gemini agents · 3 frontends (web + 2 React Native apps) · GDPR Article 17
 
 ### [Aequitas](https://github.com/SVamseekar/aequitas) — UK Bus Transport Policy Platform
-> FastAPI · DuckDB · FAISS · Gemini 2.5 Flash · GeoPandas · GTFS · React · TypeScript
+> `FastAPI` `DuckDB` `FAISS` `Gemini 2.5 Flash` `GeoPandas` `GTFS` `React`
 
-- 7-stage validated pipeline: 274,719 NaPTAN stops · 13,099 BODS routes · 1.75M trips · 33,755 LSOAs · 56.5M population · 103 quality checks, 0 failures
-- Gini **0.5741** (vs UK income Gini 0.36) · Palma 5.702 · 4,245 zero-stop LSOAs · 612 triple-deprived communities
-- RF R² 0.472 · SHAP top predictor: `nocar_pct` · 2SFCA accessibility · 51 analytical sections · DfT WebTAG BCR methodology
-- FAISS RAG chatbot (all-MiniLM-L6-v2 + Gemini 2.5 Flash) · 30 Jinja2 narrative templates
-
----
+- 274,719 stops · 1.75M trips · 33,755 LSOAs · 56.5M population · 0 quality failures
+- Gini **0.5741** (UK income Gini: 0.36) · Palma 5.702 · 4,245 zero-stop LSOAs
+- RF R² 0.472 · SHAP: `nocar_pct` · 51 analytical sections · DfT WebTAG BCR
+- FAISS RAG chatbot · Gemini 2.5 Flash · 30 Jinja2 policy narrative templates
 
 ### [Bharat Alpha](https://github.com/SVamseekar/bharat-alpha) — Indian Equity Research Terminal
-> FastAPI · FAISS · BM25 · Gemini 2.5 Flash · gemini-embedding-001 · React 18 · Supabase
+> `FastAPI` `FAISS` `BM25` `Gemini 2.5 Flash` `gemini-embedding-001` `React 18` `Supabase`
 
-- Hybrid RAG: FAISS IndexFlatIP + BM25Okapi + cross-encoder reranking (30→5) · **143K chunks** across 305 annual reports (52 Nifty 50 companies, FY2020–FY2025)
-- Streaming SSE with numbered citation markers traceable to source filings
-- React 18 + shadcn/ui · Supabase auth · live NSE prices (yfinance, 5-min cache) · investment journal with AI critique
-
----
+- Hybrid RAG: FAISS + BM25 + cross-encoder (30→5) · **143K chunks** · 305 annual reports · 52 Nifty 50 cos
+- Streaming SSE with numbered citation markers · sector-aware query routing
+- Live NSE prices · Supabase auth · investment journal with AI critique
 
 ### [BillSathi](https://github.com/SVamseekar/billsathi) — AI Bill Tracker
-> Python · FastAPI · Flutter · PaddleOCR · LightGBM · ChromaDB · Gemini · SQLite
+> `Python` `FastAPI` `Flutter` `PaddleOCR` `LightGBM` `ChromaDB` `Gemini`
 
-- OCR pipeline: PaddleOCR 2.9.1 + EasyOCR fallback (confidence gate 0.60) · 7 vendor-specific parsers
-- 3-tier categorisation: rule-based → SGDClassifier → ChromaDB semantic → Gemini 2.0 Flash fallback · 19 spending categories
-- 48 API endpoints · circuit breaker (3× 429 → 5-min cooldown) · Flutter frontend · Cloudflare Zero Trust
+- PaddleOCR + EasyOCR fallback (confidence gate 0.60) · 7 vendor parsers
+- 3-tier categoriser: rules → SGDClassifier → ChromaDB → Gemini fallback · 19 categories
+- 48 API endpoints · circuit breaker · Cloudflare Zero Trust · Oracle Cloud Free Tier
 
 ---
 
 ## Stack
 
-`Java 21` `Spring Boot 3` `Python 3.12` `FastAPI` `React 18/19` `React Native` `Flutter` `TypeScript`  
-`Google ADK` `Gemini` `FAISS` `BM25` `scikit-learn` `LightGBM` `PaddleOCR` `dbt` `DuckDB`  
-`GCP Cloud Run` `Azure DF/Synapse/Databricks` `PostgreSQL` `MongoDB` `Redis` `RabbitMQ` `Docker`
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-21-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring%20Boot-3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-18%2F19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/React%20Native-0.83-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black"/>
+  <img src="https://img.shields.io/badge/PaddleOCR-0062AD?style=flat-square"/>
+  <br/>
+  <img src="https://img.shields.io/badge/GCP%20Cloud%20Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Azure%20DP--203-0089D6?style=flat-square&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+</p>
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=SVamseekar&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D" height="150"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SVamseekar&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+</p>
 
 ---
 
@@ -84,16 +118,15 @@ SDE with production experience across RAG/LLM pipelines, event-driven microservi
 
 | | |
 |---|---|
-| M.Sc. Data Science — University of Greenwich, London · **Merit** | 2021–2022 |
-| B.Tech. Electronics & Communication — GITAM, Visakhapatnam · **8.3 CGPA** | 2016–2020 |
-| Microsoft Azure Data Engineer Associate **DP-203** · Credential: 2CEA6999835BAD6E | March 2025 |
+| 🎓 M.Sc. Data Science — University of Greenwich, London · **Merit** | 2021 – 2022 |
+| 🎓 B.Tech. Electronics & Communication — GITAM, Visakhapatnam · **8.3 CGPA** | 2016 – 2020 |
+| 📜 Microsoft Azure Data Engineer Associate **DP-203** · ID: 2CEA6999835BAD6E | March 2025 |
 
 ---
 
-<p align="center">
-  <a href="https://github.com/SVamseekar?tab=repositories"><img src="https://img.shields.io/badge/View%20All%20Repos-181717?style=for-the-badge&logo=github"/></a>
-  &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/souramarti"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin"/></a>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0089D6,100:003399&height=80&section=footer" width="100%"/>
 
-<p align="center"><b>🇪🇺 EU Blue Card Eligible · Germany · Netherlands · Ireland · Austria · wider EU</b></p>
+<p align="center">
+  <b>🇪🇺 EU Blue Card Eligible · Germany · Netherlands · Ireland · Austria · wider EU</b><br/>
+  <a href="https://linkedin.com/in/souramarti">linkedin.com/in/souramarti</a> · <a href="mailto:martisoura@gmail.com">martisoura@gmail.com</a>
+</p>
