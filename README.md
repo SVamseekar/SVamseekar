@@ -1,9 +1,9 @@
-<h1 align="center">Hi, I'm Soura Vamseekar Marti 👋</h1>
+<h1 align="center">Marti Soura Vamseekar</h1>
 
 <p align="center">
-  <b>Data & AI Engineer · M.Sc. Data Science · Azure DP-203 Certified</b><br/>
-  Building production-grade AI systems for compliance, equity research, and intelligent platforms<br/>
-  📍 Hyderabad, India &nbsp;·&nbsp; 🎯 Open to Data/AI Engineering roles in Europe
+  <b>AI & Infrastructure Engineer · M.Sc. Data Science (Greenwich, UK) · Azure DP-203</b><br/>
+  RAG/LLM pipelines · Event-driven microservices · Cloud data platforms<br/>
+  📍 Hyderabad, India &nbsp;·&nbsp; 🇪🇺 EU Blue Card Eligible · Open to relocation across Germany, Netherlands, Ireland, and wider EU
 </p>
 
 <p align="center">
@@ -11,80 +11,108 @@
   <a href="mailto:martisoura@gmail.com"><img src="https://img.shields.io/badge/Email-martisoura@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/Azure-DP--203-0089D6?style=flat-square&logo=microsoftazure&logoColor=white"/>
   <img src="https://img.shields.io/badge/MSc-Data%20Science%20%7C%20Greenwich-4B0082?style=flat-square"/>
+  <img src="https://img.shields.io/badge/EU%20Blue%20Card-Eligible-003399?style=flat-square&logo=europeanunion&logoColor=white"/>
 </p>
 
 ---
 
 ## About Me
 
-I'm a Data & AI Engineer with a Master's in Data Science from the University of Greenwich (UK, Merit) and hands-on production experience across the full stack — from Azure data pipelines to RAG systems, microservices backends, and mobile frontends.
+AI and Infrastructure Engineer with production experience in RAG/LLM pipelines, event-driven microservices, and cloud data platforms. I work across Google Vertex AI, Java/Spring Boot, Python, Azure Data Factory, Databricks, Docker, Kubernetes, and GCP — delivering across fintech AI research, EU compliance analytics, and government-scale geospatial datasets.
 
-I build things that are actually in production: a 6-service restaurant platform handling real orders, a workforce compliance platform grounded in Eurostat data, an equity research terminal over 305 annual reports, and a UK transport equity platform that started as my M.Sc. dissertation.
+I build things with real depth: a production RAG system over 305 annual reports with FAISS + BM25 + cross-encoder reranking, a 6-service restaurant platform with a 5-country EU VAT engine, a workforce intelligence platform proving labour market tightness correlates with gender pay gaps across 20 EU states, and a UK transport equity analysis covering 56.5 million people.
 
-My current focus is EU-context AI and data engineering — compliance tooling, pay-transparency analytics, and governance platforms aligned to EU regulation.
-
----
-
-## 💼 Experience
-
-### Freelance Software Developer — [Innosolv Private Limited](https://innosolv.com) · Remote (London, UK)
-**Oct 2025 – May 2026**
-
-Designed and delivered a unified algorithmic trading platform for NSE equity and derivatives markets.
-
-- Built a **Java 17 / Spring Boot 3.2 / WebFlux** platform integrating Zerodha Kite Connect for live market data, order execution, and position management
-- Engineered an **options analytics engine** covering Iron Condor strategy, spread margin calculation, basket orders, and open interest analysis — enabling automated multi-leg derivatives execution
-- Implemented **async order pipeline with Bucket4j rate limiting** to meet Zerodha API constraints, sustaining reliable high-frequency order submission without throttling
-- Delivered **high-frequency trading module** with real-time moving average signals, participant-wise OI tracking, and MongoDB-persisted trade history
-
-`Java 17` `Spring Boot 3.2` `WebFlux` `MongoDB` `Zerodha Kite Connect` `High-Frequency Trading`
+Targeting EU-based **AI Engineer** or **Data Platform Engineer** roles where production system ownership, deployment reliability, and GenAI infrastructure depth matter.
 
 ---
 
-## 🚀 Featured Projects
+## 💼 Work Experience
 
-### 🏛️ [EU AI Assurance OS](https://github.com/SVamseekar/eu-ai-assurance-os)
-Governance control plane for teams shipping AI systems in the EU market. Validates releases against EU AI Act controls via system registry, risk classification, evidence RAG with citations, eval gates, data-contract drift monitoring, and audit-ready evidence packs.
-`Spring Boot 3` `Next.js` `Java` `TypeScript` `PostgreSQL` `pgvector`
+### Software Development Engineer — [Innosolv Private Limited](https://innosolv.com)
+**London, UK (Remote) · Sep 2025 – Present**
 
-### 🍽️ [MaSoVa Restaurant Intelligence Platform](https://github.com/SVamseekar/masova-platform)
-Full-stack restaurant OS: 6 Spring Boot microservices, 399 API endpoints, 8 Google ADK AI agents, event-driven order lifecycle via RabbitMQ, and 3 production frontends (React 19 web + 2 React Native mobile apps).
-`Spring Boot` `Java 21` `GCP Cloud Run` `RabbitMQ` `WebSocket` `Google ADK` `Gemini` `React Native`
+*UK-based fintech delivering algorithmic trading, AI-powered equity research, and market intelligence for NSE cash and F&O markets.*
 
-### 📊 [WorkforceGuard AI](https://github.com/SVamseekar/workforceguardai)
-EU workforce intelligence and pay-transparency compliance platform — 26-model dbt pipeline over Eurostat data, 7 ML models (Random Forest 94.7% accuracy), FastAPI analytics backend, and hash-chained audit log for legal-grade evidence packs.
-`dbt` `DuckDB` `FastAPI` `React` `scikit-learn` `EU Pay Transparency Directive` · **[Live →](https://workforceguard-ai.vercel.app)**
+- **End-to-end AI platform delivery** for Bharat Alpha — institutional equity research system serving 10 NSE sectors; Gemini-powered chat enforces 10 Tier-1 screening filters (ROE >15%, ROCE >15%, D/E <0.8, ICR >2.0, FCF >5%) and a 100-point Tier-2 scoring model; SSE streaming with Supabase Auth and Postgres-persisted conversation history; deployed on GCP
+- **Production RAG infrastructure** over 305 annual report filings for 52 Nifty 50 companies (FY2020–FY2025); FAISS IndexFlatIP + BM25 lexical retrieval + reciprocal rank fusion + cross-encoder reranking into a unified pipeline; sector-aware routing across 5 verticals; SSE-streamed responses with inline source citations
+- **Algorithmic trading engine** (Java 17, Spring Boot, MongoDB) with AsyncOrderProcessor (CompletableFuture) for non-blocking dispatch and Bucket4j rate limiter at 10 req/s; derivatives suite covers Iron Condor P&L (max-profit filter >2%), multi-leg spread margin engine, basket order aggregator, and participant-wise open interest tracker
 
-### 📈 [Bharat Alpha](https://github.com/SVamseekar/bharat-alpha)
-AI-powered Indian equity research terminal — hybrid RAG (FAISS + BM25 + cross-encoder reranker) over 305 annual reports for 52 Nifty 50 companies, streaming Gemini 2.5 Flash responses with citation markers, and live NSE prices.
-`FastAPI` `FAISS` `Gemini` `React` `Supabase` `Python`
+`Google Vertex AI` `Gemini` `FAISS` `BM25` `Java 17` `Spring Boot` `GCP` `MongoDB` `RAG` `SSE`
+
+---
+
+## 🚀 Key Projects
+
+### 📊 [WorkforceGuard AI](https://github.com/SVamseekar/workforceguardai) · [Live →](https://workforceguard-ai.vercel.app)
+**EU Pay Transparency & Workforce Intelligence Platform · Jan 2024 – Present**
+
+Proved that labour market tightness and gender pay gaps are positively correlated (r ≈ +0.41) across 20 EU member states — grounding EU Pay Transparency Directive 2023/970/EU compliance analysis.
+
+- 36 dbt models across 4 mart layers · DuckDB serverless warehouse · FastAPI backend · React 18 frontend
+- GitHub Actions CI/CD deploying in parallel to GCP and Vercel · ingests Eurostat LFS, JVS, SES across 11 NACE sectors · 4 composite workforce indices (HPI, LR, ERS, TR)
+- 7 ML models on 32,769 samples — Random Forest: 94.7% accuracy, AUC 0.855, 99.5% recall
+- SHA-256 hash-chained SQLite audit log · evidence-bounded Gemini analyst meeting EU Pay Transparency Directive audit requirements
+
+`dbt` `DuckDB` `FastAPI` `React` `scikit-learn` `Gemini` `GitHub Actions` `GCP` `Vercel` `EU Compliance`
+
+---
+
+### 🍽️ [Masova Platform](https://github.com/SVamseekar/masova-platform)
+**Cloud-Native Restaurant Management System · Feb 2023 – Present**
+
+- 6 Spring Boot 3 / Java 21 microservices on GCP Cloud Run · 3 durable RabbitMQ topic exchanges · 11-state order state machine with dual-write MongoDB + PostgreSQL · Spring Cloud Gateway with JWT auth and per-route rate limits
+- **5-country EU VAT engine** with fiscal signers for Germany (TSE), France (NF525), Belgium (FDM), Italy (RT), Hungary (NTCA)
+- 2 WebSocket endpoints (STOMP/SockJS) targeting <100ms state-change delivery · Redis caching · PIN lookup optimised 200ms → 5ms (97.5%)
+- Containerised ADK 1.25 / Gemini 2.0 Flash agent · MaSoVaDriverApp (React Native 0.83) with native Android background GPS · 3 notification channels (Brevo, Twilio, Firebase) through GDPR-compliant consent workflows
+- Offline queue buffering 1,000 actions with 30-second sync on reconnect
+
+`Spring Boot 3` `Java 21` `GCP Cloud Run` `RabbitMQ` `Spring Cloud Gateway` `MongoDB` `PostgreSQL` `Redis` `Google ADK` `React Native` `GDPR`
+
+---
 
 ### 🚌 [Aequitas](https://github.com/SVamseekar/aequitas)
-UK bus transport equity analytics platform. M.Sc. dissertation extended into production — processed 6 open datasets covering 274,719 bus stops and 33,755 LSOAs to reveal structural transport inequality (Gini 0.5741) across England.
-`FastAPI` `DuckDB` `FAISS` `Gemini RAG` `React` `Python` `Public Policy`
+**UK Bus Transport Policy Intelligence Platform · Oct 2021 – Present**
+
+M.Sc. dissertation extended into a production policy platform for DfT and Local Transport Authorities.
+
+- 7-stage validated pipeline processing **1.75M GTFS trips** · 13,099 routes · 274,719 bus stops · 33,755 LSOAs (population 56.49M)
+- Spatial join at **99.9993% match rate** · DuckDB warehouse serving 51 analytical sections through 27 Jinja2 templates
+- Equity outcomes: **Gini 0.5741** · Palma ratio 5.702 · 4,245 zero-stop LSOAs · 5,189 evening-isolated communities (15.4%)
+- ML: Random Forest Regressor · Isolation Forest · Gaussian Mixture Models · SHAP feature importance · 2SFCA accessibility scoring · DfT WebTAG v2.03fc BCR methodology
+- FAISS RAG (sentence-transformers all-MiniLM-L6-v2) powering a React/Vite policy dashboard
+
+`FastAPI` `DuckDB` `FAISS` `Python` `React` `GTFS` `Geospatial` `Public Policy`
+
+---
+
+### 📈 [Bharat Alpha](https://github.com/SVamseekar/bharat-alpha)
+**Indian Equity Research Terminal · Jun 2024 – Present**
+
+Hybrid RAG over 305 annual reports for 52 Nifty 50 companies — FAISS + BM25 + cross-encoder reranking (30 candidates → top 5), sector-aware routing, streaming Gemini 2.5 Flash responses with citation markers, live NSE prices via yfinance.
+
+`FastAPI` `FAISS` `BM25` `Gemini` `React` `Supabase` `Python` `GCP`
+
+---
 
 ### 🧾 [BillSathi](https://github.com/SVamseekar/billsathi)
-AI bill tracking app — multi-engine OCR pipeline (PaddleOCR + EasyOCR), LightGBM + ChromaDB ML categorisation, Gemini LLM fallback, and Flutter mobile frontend.
-`Python` `FastAPI` `Flutter` `LightGBM` `ChromaDB` `Gemini` `OCR`
+**AI Bill Tracking Application · Aug 2024 – Present**
+
+Multi-engine OCR pipeline (PaddleOCR + EasyOCR + OpenCV) → LightGBM classifier → ChromaDB semantic search → Gemini LLM fallback across 19 spending categories · 130 backend test cases · automated Google API email ingestion · Flutter frontend.
+
+`Python` `FastAPI` `Flutter` `LightGBM` `ChromaDB` `Gemini` `OCR` `SQLite`
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Cloud & Data Engineering**
-`Azure Data Factory` `Azure Databricks` `Azure Synapse` `Azure Data Lake Gen2` `GCP Cloud Run` `dbt` `PySpark` `DuckDB` `Spark SQL`
-
-**AI / GenAI**
-`Google Gemini` `Google ADK` `RAG Pipelines` `FAISS` `BM25` `LangChain` `Sentence Transformers` `LightGBM` `TensorFlow`
-
-**Backend**
-`Spring Boot 3` `Java 21` `FastAPI` `Python` `PostgreSQL` `MongoDB` `Redis` `RabbitMQ`
-
-**Frontend & Mobile**
-`React 19` `Next.js` `TypeScript` `React Native` `Expo` `Flutter` `Redux Toolkit` `shadcn/ui`
-
-**DevOps**
-`Docker` `GitHub Actions` `Flyway` `Maven`
+| Domain | Technologies |
+|---|---|
+| **AI & GenAI** | Google Vertex AI · Gemini · Google ADK · RAG · FAISS · BM25 · Cross-Encoder · LangChain · LLM Agents · PaddleOCR · scikit-learn · TensorFlow |
+| **Cloud & Infra** | Azure Data Factory · Synapse Analytics · Databricks · Data Lake Gen2 · GCP Cloud Run · Docker · Kubernetes · GitHub Actions |
+| **Data Engineering** | Python · PySpark · dbt · DuckDB · Apache Spark · ETL/ELT · Parquet · Pydantic · Power BI |
+| **Backend** | Java 17 · Spring Boot 3 · FastAPI · Spring WebFlux · Spring Cloud Gateway · RabbitMQ · WebSockets · Flyway · OpenAPI |
+| **Databases** | PostgreSQL · MongoDB · Redis · ChromaDB · Supabase · SQLite · DuckDB |
+| **Frontend & Mobile** | TypeScript · React 18/19 · Next.js · React Native · Flutter · Redux Toolkit · shadcn/ui · Tailwind CSS |
 
 ---
 
@@ -92,8 +120,8 @@ AI bill tracking app — multi-engine OCR pipeline (PaddleOCR + EasyOCR), LightG
 
 | | |
 |---|---|
-| 🎓 **M.Sc. Data Science** — University of Greenwich, London (Merit) | 2021 – 2022 |
-| 🎓 **B.Tech. Electronics & Communication** — GITAM, Visakhapatnam (8.3 CGPA) | 2016 – 2020 |
+| 🎓 **M.Sc. Data Science** — University of Greenwich, London · Merit | 2021 – 2022 |
+| 🎓 **B.Tech. Electronics & Communication** — GITAM, Visakhapatnam · 8.3 CGPA | 2016 – 2020 |
 | 📜 **Microsoft Azure Data Engineer Associate (DP-203)** | March 2025 |
 
 ---
@@ -108,6 +136,6 @@ AI bill tracking app — multi-engine OCR pipeline (PaddleOCR + EasyOCR), LightG
 ---
 
 <p align="center">
-  <i>Currently based in Hyderabad · Actively looking for Data/AI Engineering roles in Europe (Germany, Netherlands, Austria, Ireland, UK)</i><br/>
-  <a href="https://linkedin.com/in/souramarti">Let's connect on LinkedIn →</a>
+  <b>🇪🇺 EU Blue Card Eligible · Open to relocation · Germany · Netherlands · Ireland · Austria · wider EU</b><br/><br/>
+  <a href="https://linkedin.com/in/souramarti">Connect on LinkedIn →</a>
 </p>
