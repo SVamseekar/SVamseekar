@@ -25,6 +25,22 @@ My current focus is EU-context AI and data engineering — compliance tooling, p
 
 ---
 
+## 💼 Experience
+
+### Freelance Software Developer — [Innosolv Private Limited](https://innosolv.com) · Remote (London, UK)
+**Oct 2025 – May 2026**
+
+Designed and delivered a unified algorithmic trading platform for NSE equity and derivatives markets.
+
+- Built a **Java 17 / Spring Boot 3.2 / WebFlux** platform integrating Zerodha Kite Connect for live market data, order execution, and position management
+- Engineered an **options analytics engine** covering Iron Condor strategy, spread margin calculation, basket orders, and open interest analysis — enabling automated multi-leg derivatives execution
+- Implemented **async order pipeline with Bucket4j rate limiting** to meet Zerodha API constraints, sustaining reliable high-frequency order submission without throttling
+- Delivered **high-frequency trading module** with real-time moving average signals, participant-wise OI tracking, and MongoDB-persisted trade history
+
+`Java 17` `Spring Boot 3.2` `WebFlux` `MongoDB` `Zerodha Kite Connect` `High-Frequency Trading`
+
+---
+
 ## 🚀 Featured Projects
 
 ### 🏛️ [EU AI Assurance OS](https://github.com/SVamseekar/eu-ai-assurance-os)
