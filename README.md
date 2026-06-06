@@ -87,7 +87,7 @@ Currently open to SDE roles in Germany, Netherlands, and Ireland. EU Blue Card e
 
 ---
 
-💼 **Previously**
+💼 **Currently**
 
 SDE at [Innosolv Private Limited](https://innosolv.com) (London, remote) — algorithmic trading platform for live NSE equity & derivatives, options analytics engine, HFT module · Java 17, Spring Boot 3.2, Zerodha Kite Connect
 
