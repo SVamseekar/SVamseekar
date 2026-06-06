@@ -91,7 +91,7 @@ Local-first, privacy-first bill tracking app for Indian households. OCR pipeline
 
 💼 **Currently** — SDE at [Innosolv Private Limited](https://innosolv.com) (London, remote)
 
-Building two products: an algorithmic trading platform for live NSE equity & derivatives markets (Java 17, Spring Boot 3.2, WebFlux, Zerodha Kite Connect — options analytics engine, Iron Condor strategies, basket orders, HFT module with Bucket4j rate limiting) and **[Bharat Alpha](https://github.com/SVamseekar/bharat-alpha)**, an AI-powered Indian equity research terminal with hybrid RAG over 305 annual reports (143K chunks, FAISS + BM25 + cross-encoder, Gemini 2.5 Flash streaming).
+Building two products: an algorithmic trading platform for live NSE equity & derivatives markets (Java 17, Spring Boot 3.2, WebFlux, Zerodha Kite Connect — options analytics engine, Iron Condor strategies, basket orders, HFT module with Bucket4j rate limiting) and **Bharat Alpha**, an AI-powered Indian equity research terminal with hybrid RAG over 305 annual reports (143K chunks, FAISS + BM25 + cross-encoder, Gemini 2.5 Flash streaming).
 
 ---
 
