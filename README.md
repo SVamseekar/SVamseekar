@@ -9,14 +9,12 @@
 <p align="center">
   <a href="https://linkedin.com/in/souramarti"><img src="https://img.shields.io/badge/LinkedIn-souramarti-0077B5?style=flat-square&logo=linkedin"/></a>
   <a href="mailto:martisoura@gmail.com"><img src="https://img.shields.io/badge/Email-martisoura%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/Azure-DP--203-0089D6?style=flat-square&logo=microsoftazure&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MSc-Data%20Science%20%7C%20Greenwich%20%7C%20Merit-4B0082?style=flat-square"/>
+  <a href="https://ssrn.com/abstract=6826361"><img src="https://img.shields.io/badge/SSRN-Published%20Research-darkblue?style=flat-square"/></a>
+  <a href="https://orcid.org/0009-0005-4884-1292"><img src="https://img.shields.io/badge/ORCID-0009--0005--4884--1292-A6CE39?style=flat-square&logo=orcid&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/EU%20Blue%20Card-Eligible-003399?style=flat-square&logo=europeanunion&logoColor=white"/>
 </p>
 
 ---
-
-## Skills
 
 <table border="0" cellspacing="0" cellpadding="4">
 <tr><td><b>Languages & Frameworks</b></td><td>
@@ -55,82 +53,47 @@
 <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white"/>
 <img src="https://img.shields.io/badge/ChromaDB-1C1C1C?style=flat-square"/>
 <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
 </td></tr>
 </table>
 
 ---
 
-## About
+I'm an SDE based in Hyderabad, India — M.Sc. Data Science from the University of Greenwich (Merit) and Azure DP-203 certified. I build production AI systems: RAG pipelines, event-driven microservices, and cloud data platforms. I recently published a quantitative paper on SSRN showing that tight EU labour markets are positively correlated with gender pay gaps (r ≈ +0.41) — the opposite of what standard economic theory predicts.
 
-SDE with production experience shipping RAG/LLM pipelines, event-driven microservices, and cloud data platforms. I build at real scale: 143K-chunk hybrid RAG over 305 annual reports, a 399-endpoint 6-service restaurant platform with a 12-country EU VAT engine, a workforce analytics system confirming r ≈ +0.41 between labour tightness and gender pay gaps across 20 EU states, and a UK transport equity platform covering 56.5M people across 33,755 LSOAs.
-
----
-
-## Experience
-
-**Software Development Engineer** — [Innosolv Private Limited](https://innosolv.com) · London, UK (Remote) · *Oct 2025 – May 2026*
-
-Built a unified algorithmic trading platform for live NSE equity & derivatives markets — Java 17, Spring Boot 3.2, MongoDB, WebFlux, Zerodha Kite Connect. Delivered an options analytics engine (Iron Condor, basket orders, OI tracking) and an async order pipeline with Bucket4j rate limiting for high-frequency execution.
+Currently open to SDE roles in Germany, Netherlands, and Ireland. EU Blue Card eligible.
 
 ---
 
-## Publications
+📄 **Published Research**
 
-**[Why Tight Labour Markets Do Not Close Gender Pay Gaps: Evidence from a 20-Country Eurostat Panel](https://ssrn.com/abstract=6826361)**  
-*Marti Soura Vamseekar* · SSRN Preprint · May 25, 2026 · ORCID: 0009-0005-4884-1292
+**[Why Tight Labour Markets Do Not Close Gender Pay Gaps: Evidence from a 20-Country Eurostat Panel](https://ssrn.com/abstract=6826361)**
+*SSRN · May 2026 · ORCID: 0009-0005-4884-1292*
 
-Quantitative panel study across 20 EU member states (2019–2024) using Eurostat LFS, JVS, and SES microdata across 11 NACE sectors. Finds that labour market tightness and gender pay equity risk are **positively correlated (r ≈ +0.41; p ≈ 0.07)** — directly contradicting the standard competitive equalisation hypothesis that tight labour markets erode pay discrimination. The five tightest labour markets (Netherlands HPI=100, Germany HPI=99, Czech Republic HPI=95, Hungary HPI=88, Estonia HPI=67) all record gender pay gaps above the EU27 average of 11.1%. Finance (EU27 gap 24.28%) and ICT (19.68%) are the highest-risk sectors across virtually every country.
-
-Introduces a novel **Combined Risk Quadrant** (Hiring Pressure Index × Equity Risk Score) — the first integrated tightness-equity typology in the academic literature — identifying Germany, Czech Republic, Hungary, and Latvia as Priority intervention cases under EU Directive 2023/970. Presents WorkforceGuard, an open-source Eurostat-grounded analytics system implementing these indices with provenance metadata, evidence-bounded LLM analysis, and a SHA-256 hash-chained governance log.
-
-`JEL: J31 · J16 · J21 · J71 · J58 · C43 · K31`
+20-country Eurostat panel (2019–2024), 11 NACE sectors. Finds r ≈ +0.41 between labour market tightness and gender pay gaps — contradicting competitive equalisation theory. Introduces the Combined Risk Quadrant (HPI × ERS), the first integrated tightness-equity typology in the academic literature. Implemented in WorkforceGuard, an open-source analytics system with SHA-256 hash-chained governance log.
 
 ---
 
-## Projects
+🔨 **What I've built**
 
-### [WorkforceGuard AI](https://github.com/SVamseekar/workforceguardai) — EU Pay Transparency Platform
-> `dbt` `DuckDB` `FastAPI` `React 19` `scikit-learn` `Eurostat API`
+**[WorkforceGuard AI](https://github.com/SVamseekar/workforceguardai)** — EU pay transparency analytics over 16 Eurostat datasets · 28 dbt models · EU27 · RF 94.7% accuracy · evidence packs for Directive 2023/970 audit
 
-- 28-model dbt pipeline · 16 Eurostat datasets · EU27 (27 member states)
-- Confirmed **r ≈ +0.41** labour tightness ↔ gender pay gap · 20 EU states
-- Random Forest: **94.7% accuracy · AUC 0.855** on 912K-record test set
-- Evidence packs + governance log for EU Directive 2023/970 audit
+**[Masova](https://github.com/SVamseekar/masova-platform)** — Full-stack restaurant OS · 6 Spring Boot 3 microservices · 399 endpoints · 12-country EU VAT engine · 8 Gemini agents · 3 frontends · GDPR Article 17
 
-### [Masova](https://github.com/SVamseekar/masova-platform) — Restaurant Intelligence Platform
-> `Spring Boot 3` `Java 21` `GCP Cloud Run` `RabbitMQ` `MongoDB` `Redis` `Google ADK` `React Native`
+**[Aequitas](https://github.com/SVamseekar/aequitas)** — UK bus transport equity platform · 274K stops · 56.5M people · 33,755 LSOAs · Gini 0.5741 · FAISS RAG + Gemini 2.5 Flash · M.Sc. dissertation → production
 
-- 6 microservices · **399 endpoints** · Spring Cloud Gateway · JWT HS512
-- **12-country EU VAT engine** — German TSE, French NF525, Italian SDI, UK MTD
-- RabbitMQ event pipeline · WebSocket delivery · dual-write MongoDB + PostgreSQL
-- 8 Google ADK / Gemini agents · 3 frontends (web + 2 React Native apps) · GDPR Article 17
+**[Bharat Alpha](https://github.com/SVamseekar/bharat-alpha)** — Indian equity research terminal · 143K chunks · 305 annual reports · FAISS + BM25 + cross-encoder hybrid RAG · streaming citations
 
-### [Aequitas](https://github.com/SVamseekar/aequitas) — UK Bus Transport Policy Platform
-> `FastAPI` `DuckDB` `FAISS` `Gemini 2.5 Flash` `GeoPandas` `GTFS` `React`
-
-- 274,719 stops · 1.75M trips · 33,755 LSOAs · 56.5M population · 0 quality failures
-- Gini **0.5741** (UK income Gini: 0.36) · Palma 5.702 · 4,245 zero-stop LSOAs
-- RF R² 0.472 · SHAP: `nocar_pct` · 51 analytical sections · DfT WebTAG BCR
-- FAISS RAG chatbot · Gemini 2.5 Flash · 30 Jinja2 policy narrative templates
-
-### [Bharat Alpha](https://github.com/SVamseekar/bharat-alpha) — Indian Equity Research Terminal
-> `FastAPI` `FAISS` `BM25` `Gemini 2.5 Flash` `gemini-embedding-001` `React 18` `Supabase`
-
-- Hybrid RAG: FAISS + BM25 + cross-encoder (30→5) · **143K chunks** · 305 annual reports · 52 Nifty 50 cos
-- Streaming SSE with numbered citation markers · sector-aware query routing
-- Live NSE prices · Supabase auth · investment journal with AI critique
-
-### [BillSathi](https://github.com/SVamseekar/billsathi) — AI Bill Tracker
-> `Python` `FastAPI` `Flutter` `PaddleOCR` `LightGBM` `ChromaDB` `Gemini`
-
-- PaddleOCR + EasyOCR fallback (confidence gate 0.60) · 7 vendor parsers
-- 3-tier categoriser: rules → SGDClassifier → ChromaDB → Gemini fallback · 19 categories
-- 48 API endpoints · circuit breaker · Cloudflare Zero Trust · Oracle Cloud Free Tier
+**[BillSathi](https://github.com/SVamseekar/billsathi)** — AI bill tracker · PaddleOCR + EasyOCR · 3-tier ML categoriser · 48 endpoints · Flutter · Cloudflare Zero Trust
 
 ---
 
-## GitHub Activity
+💼 **Previously**
+
+SDE at [Innosolv Private Limited](https://innosolv.com) (London, remote) — algorithmic trading platform for live NSE equity & derivatives, options analytics engine, HFT module · Java 17, Spring Boot 3.2, Zerodha Kite Connect
+
+---
+
+📊 **GitHub**
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SVamseekar&theme=tokyonight" width="100%"/>
@@ -142,21 +105,16 @@ Introduces a novel **Combined Risk Quadrant** (Hiring Pressure Index × Equity R
 
 ---
 
-## Education & Certs
-
-| | |
-|---|---|
-| M.Sc. Data Science — University of Greenwich, London · **Merit** | 2021 – 2022 |
-| B.Tech. Electronics & Communication — GITAM, Visakhapatnam · **8.3 CGPA** | 2016 – 2020 |
-| Microsoft Azure Data Engineer Associate **DP-203** · ID: 2CEA6999835BAD6E | March 2025 |
+🎓 M.Sc. Data Science — University of Greenwich, London · Merit · 2022
+&nbsp;&nbsp;&nbsp;B.Tech. Electronics & Communication — GITAM, Visakhapatnam · 8.3 CGPA · 2020
+&nbsp;&nbsp;&nbsp;Microsoft Azure Data Engineer Associate DP-203 · March 2025
 
 ---
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0089D6,100:003399&height=80&section=footer" />
 </p>
-
 <p align="center">
-  <b>EU Blue Card Eligible · Germany · Netherlands · Ireland · Austria · wider EU</b><br/>
-  <a href="https://linkedin.com/in/souramarti">linkedin.com/in/souramarti</a> · <a href="mailto:martisoura@gmail.com">martisoura@gmail.com</a>
+  <b>🇪🇺 Germany · Netherlands · Ireland · Austria · EU Blue Card Eligible</b><br/>
+  <a href="https://linkedin.com/in/souramarti">linkedin.com/in/souramarti</a> · <a href="mailto:martisoura@gmail.com">martisoura@gmail.com</a> · <a href="https://ssrn.com/abstract=6826361">SSRN Paper</a> · <a href="https://orcid.org/0009-0005-4884-1292">ORCID</a>
 </p>
