@@ -68,7 +68,7 @@ Currently open to SDE roles in Germany, Netherlands, and Ireland. EU Blue Card e
 
 ---
 
-## Published Research
+## 📑 Published Research
 
 **[Why Tight Labour Markets Do Not Close Gender Pay Gaps: Evidence from a 20-Country Eurostat Panel](https://ssrn.com/abstract=6826361)**
 *Marti, S. V. (2026) · May 2026 · ORCID: [0009-0005-4884-1292](https://orcid.org/0009-0005-4884-1292)*
@@ -79,7 +79,7 @@ Available on: [SSRN](https://ssrn.com/abstract=6826361) · [Zenodo (DOI: 10.5281
 
 ---
 
-## What I've Built
+## 🛠️ What I've Built
 
 **[Masova](https://github.com/SVamseekar/masova-platform)** · [Live demo](https://masova.souravamseekar.com)
 Full-stack restaurant intelligence platform — 6 Spring Boot 3 / Java 21 microservices on GCP Cloud Run behind a Spring Cloud Gateway (JWT HS512, per-route rate limits). 399 API endpoints across order management, payments, logistics, and BI. Event-driven order lifecycle via RabbitMQ with WebSocket delivery to all clients. Dual-write persistence: PostgreSQL (Flyway V1–V8) + MongoDB. EU VAT engine covering 12 countries with fiscal signers (German TSE, French NF525, Italian SDI, UK MTD). 8 Google ADK 1.25 / Gemini agents handling demand forecasting, churn prevention, inventory reorder, and review drafting. 3 production frontends: React 19 web, React Native 0.83 staff app, React Native 0.81 customer app. GDPR Article 17 compliant with data retention policies (2-year customer, 7-year PCI).
@@ -95,7 +95,7 @@ Governance control plane for teams shipping AI systems in the EU, built around t
 
 ---
 
-## Currently
+## 💻 Currently
 
 SDE at [Innosolv Private Limited](https://innosolv.com) (London, remote)
 
@@ -103,7 +103,7 @@ Building two products: an algorithmic trading platform for live NSE equity & der
 
 ---
 
-## GitHub Activity
+## 📈 GitHub Activity
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SVamseekar&theme=tokyonight" width="100%"/>
@@ -115,7 +115,7 @@ Building two products: an algorithmic trading platform for live NSE equity & der
 
 ---
 
-## Education & Certifications
+## 🎓 Education & Certifications
 
 M.Sc. Data Science — University of Greenwich, London · Merit · 2022
 &nbsp;&nbsp;&nbsp;B.Tech. Electronics & Communication — GITAM, Visakhapatnam · 8.3 CGPA · 2020
