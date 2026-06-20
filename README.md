@@ -81,16 +81,16 @@ Available on: [SSRN](https://ssrn.com/abstract=6826361) · [Zenodo (DOI: 10.5281
 
 🔨 **What I've built**
 
-**[Masova](https://github.com/SVamseekar/masova-platform)**
+**[Masova](https://github.com/SVamseekar/masova-platform)** · [Live demo](https://masova.souravamseekar.com)
 Full-stack restaurant intelligence platform — 6 Spring Boot 3 / Java 21 microservices on GCP Cloud Run behind a Spring Cloud Gateway (JWT HS512, per-route rate limits). 399 API endpoints across order management, payments, logistics, and BI. Event-driven order lifecycle via RabbitMQ with WebSocket delivery to all clients. Dual-write persistence: PostgreSQL (Flyway V1–V8) + MongoDB. EU VAT engine covering 12 countries with fiscal signers (German TSE, French NF525, Italian SDI, UK MTD). 8 Google ADK 1.25 / Gemini agents handling demand forecasting, churn prevention, inventory reorder, and review drafting. 3 production frontends: React 19 web, React Native 0.83 staff app, React Native 0.81 customer app. GDPR Article 17 compliant with data retention policies (2-year customer, 7-year PCI).
 
-**[WorkforceGuard AI](https://github.com/SVamseekar/workforceguardai)**
+**[WorkforceGuard AI](https://github.com/SVamseekar/workforceguardai)** · [Live demo](https://workforceguardai.souravamseekar.com)
 EU workforce intelligence and pay transparency platform underpinning the published SSRN paper. 28-model dbt pipeline over a DuckDB warehouse ingesting 16 Eurostat datasets (LFS, JVS, SES) across EU27. Computes four composite indices — Hiring Pressure Index, Labour Resilience, Equity Risk Score, Transition Readiness — all formula-versioned and audit-traceable. 7 ML models on 32,769 samples; Random Forest achieved 94.7% accuracy and AUC 0.855 on a 912K-record test set. FastAPI backend + React 19 dashboard with evidence packs and governance log for EU Directive 2023/970 compliance audit.
 
-**[Aequitas](https://github.com/SVamseekar/aequitas)**
+**[Aequitas](https://github.com/SVamseekar/aequitas)** · [Live demo](https://aequitas.souravamseekar.com)
 UK bus transport policy intelligence platform built as an M.Sc. dissertation (University of Greenwich) and extended into production. A 7-stage validated pipeline processes 274,719 active NaPTAN bus stops, 13,099 BODS GTFS routes, and 1.75M trips across 33,755 English LSOAs (56.5M population) — 103 quality checks, 0 failures. Key findings: Gini coefficient 0.5741 (vs UK income Gini 0.36), Palma ratio 5.702, 4,245 zero-stop LSOAs, 5,189 evening-isolated communities, 612 triple-deprived LSOAs. ML stack: Random Forest (R² 0.472, top SHAP feature: `nocar_pct`), HDBSCAN clustering, Isolation Forest, 2SFCA accessibility scoring. Production platform: FastAPI + DuckDB warehouse + FAISS RAG chatbot (all-MiniLM-L6-v2 + Gemini 2.5 Flash) + React/TypeScript frontend. 51 analytical sections across 8 policy dimensions, 30 Jinja2 narrative templates.
 
-**[EU AI Assurance OS](https://github.com/SVamseekar/eu-ai-assurance-os)**
+**[EU AI Assurance OS](https://github.com/SVamseekar/eu-ai-assurance-os)** · [Live demo](https://euassuranceai.souravamseekar.com)
 Governance control plane for teams shipping AI systems in the EU, built around the EU AI Act. Covers AI system inventory and risk classification, cited compliance evidence RAG, eval gate simulation, data-contract drift monitoring, append-only audit trails, and exportable evidence packs. Spring Boot backend MVP with tenant-scoped APIs, audit trails, and release gates, paired with an interactive static prototype (command dashboard, EU risk topology visualization). Production target: PostgreSQL + pgvector for cited evidence search, Redis, Kafka for eval/drift/audit event streams, RBAC/SSO, and GDPR delete/export workflows.
 
 ---
