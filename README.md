@@ -10,6 +10,8 @@
   <a href="https://linkedin.com/in/souramarti"><img src="https://img.shields.io/badge/LinkedIn-souramarti-0077B5?style=flat-square&logo=linkedin"/></a>
   <a href="mailto:martisoura@gmail.com"><img src="https://img.shields.io/badge/Email-martisoura%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
   <a href="https://ssrn.com/abstract=6826361"><img src="https://img.shields.io/badge/SSRN-Published%20Research-darkblue?style=flat-square"/></a>
+  <a href="https://doi.org/10.5281/zenodo.20455974"><img src="https://img.shields.io/badge/Zenodo-DOI%2010.5281%2Fzenodo.20455974-1682D4?style=flat-square&logo=zenodo&logoColor=white"/></a>
+  <a href="https://mpra.ub.uni-muenchen.de/129330/"><img src="https://img.shields.io/badge/MPRA-Paper%20129330-8B0000?style=flat-square"/></a>
   <a href="https://orcid.org/0009-0005-4884-1292"><img src="https://img.shields.io/badge/ORCID-0009--0005--4884--1292-A6CE39?style=flat-square&logo=orcid&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/EU%20Blue%20Card-Eligible-003399?style=flat-square&logo=europeanunion&logoColor=white"/>
 </p>
@@ -67,7 +69,7 @@ Currently open to SDE roles in Germany, Netherlands, and Ireland. EU Blue Card e
 📄 **Published Research**
 
 **[Why Tight Labour Markets Do Not Close Gender Pay Gaps: Evidence from a 20-Country Eurostat Panel](https://ssrn.com/abstract=6826361)**
-*SSRN · May 2026 · ORCID: 0009-0005-4884-1292*
+*SSRN: [abstract=6826361](https://ssrn.com/abstract=6826361) · Zenodo: [doi.org/10.5281/zenodo.20455974](https://doi.org/10.5281/zenodo.20455974) · MPRA: [Paper No. 129330](https://mpra.ub.uni-muenchen.de/129330/) · May 2026 · ORCID: 0009-0005-4884-1292*
 
 20-country Eurostat panel (2019–2024), 11 NACE sectors. Finds r ≈ +0.41 between labour market tightness and gender pay gaps — contradicting competitive equalisation theory. Introduces the Combined Risk Quadrant (HPI × ERS), the first integrated tightness-equity typology in the academic literature. Implemented in WorkforceGuard, an open-source analytics system with SHA-256 hash-chained governance log.
 
@@ -118,5 +120,5 @@ Building two products: an algorithmic trading platform for live NSE equity & der
 </p>
 <p align="center">
   <b>🇪🇺 Germany · Netherlands · Ireland · Austria · EU Blue Card Eligible</b><br/>
-  <a href="https://linkedin.com/in/souramarti">linkedin.com/in/souramarti</a> · <a href="mailto:martisoura@gmail.com">martisoura@gmail.com</a> · <a href="https://ssrn.com/abstract=6826361">SSRN Paper</a> · <a href="https://orcid.org/0009-0005-4884-1292">ORCID</a>
+  <a href="https://linkedin.com/in/souramarti">linkedin.com/in/souramarti</a> · <a href="mailto:martisoura@gmail.com">martisoura@gmail.com</a> · <a href="https://ssrn.com/abstract=6826361">SSRN Paper</a> · <a href="https://doi.org/10.5281/zenodo.20455974">Zenodo</a> · <a href="https://mpra.ub.uni-muenchen.de/129330/">MPRA</a> · <a href="https://orcid.org/0009-0005-4884-1292">ORCID</a>
 </p>
